@@ -1,4 +1,5 @@
 <script setup>
+import Navbar from '../ui/Navbar.vue'
 import HeroSection from '../pages/HeroSection.vue'
 import AboutMe from '../pages/AboutMe.vue'
 import MySkills from '../pages/MySkills.vue'
@@ -10,7 +11,8 @@ import Contact from '../pages/Contact.vue'
 
 <template>
   <div class="relative mx-auto">
-    <div class="cover-gradient pt-16 pb-32 px-4">
+    <Navbar/>
+    <div class="cover-gradient pt-16 pb-32 px-4 ">
       <HeroSection />
     </div>
     <div id="about">

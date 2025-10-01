@@ -15,15 +15,9 @@ const emit = defineEmits(['close'])
   >
     <ul class="space-y-2">
       <li><a href="#about" class="hover:text-blue-500">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
       <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
-      <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
-      <!-- contoh item tambahan biar panjang -->
-      <li><a href="#blog" class="hover:text-blue-500">Blog</a></li>
-      <li><a href="#services" class="hover:text-blue-500">Services</a></li>
-      <li><a href="#team" class="hover:text-blue-500">Team</a></li>
-      <li><a href="#careers" class="hover:text-blue-500">Careers</a></li>
-      <li><a href="#faq" class="hover:text-blue-500">FAQ</a></li>
-      <li><a href="#support" class="hover:text-blue-500">Support</a></li>
+      <li><a href="#experiences" class="hover:text-blue-500">Experiences</a></li>
     </ul>
   </div>
 </template>

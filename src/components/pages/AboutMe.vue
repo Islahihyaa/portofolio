@@ -68,7 +68,7 @@ const contacts = ref([
 
 <template>
   <section
-    class="max-w-screen-2xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
+    class="container mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
   >
     <div class="rotate-in w-full flex flex-col px-10">
       <div class="flex items-center mb-6 gap-4 text-blue-500 rotate-in-heading">
